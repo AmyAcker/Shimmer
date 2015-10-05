@@ -7,11 +7,11 @@
 // @include     http://*.skimur.com/*
 // @include     https://*.skimur.com/*
 // @run-at      document-start
-// @version     1.0.5
+// @version     1.0.6
 // ==/UserScript==
 (function() {var css = [
 	"/*",
-	"SHIMMER VERSION v1.0.5",
+	"SHIMMER VERSION v1.0.6",
 	"OPEN SOURCE PROJECT UNDER CC BY-SA LICENSE",
 	"DESIGNED BY /U/AMY",
 	"*/",
@@ -87,7 +87,9 @@
 	".reports-unignored,",
 	".page-header.comments-header, .footer,",
 	"div.disc.comment,",
+	".form-createpost hr,",
 	".col-sm-4 .panel-default,",
+	".col-sm-8 hr,",
 	".col-md-9 .page-header,",
 	".col-md-9 td,",
 	"div.col-sm-12 hr,",
@@ -111,8 +113,19 @@
 	"	background: #286090;",
 	"	border-color: #286090;",
 	"}",
+	".unsubscribed {",
+	"	background: #337ab7 !important;",
+	"	border-color: #337ab7 !important;",
+	"}",
+	".unsubscribed:hover {",
+	"	background: #286090 !important;",
+	"	border-color: #286090 !important;",
+	"}",
 	"a.domain {",
 	"	color: #aaa !important",
+	"}",
+	".form-createpost .nav-tabs .active {",
+	"	background: #333333 !important;",
 	"}",
 	".panel {",
 	"	background: #292929",
@@ -149,6 +162,11 @@
 	".disc .disc-body .disc-left .disc-voting.voted-up .down,",
 	".disc .disc-body .disc-left .disc-voting.voted-down .up {",
 	"	color: #3B3B3B",
+	"}",
+	"pre {",
+	"	background: #333333;",
+	"	color: white;",
+	"	border: none;",
 	"}",
 	".md-header.btn-toolbar {",
 	"	background: #292929",
