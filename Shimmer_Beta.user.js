@@ -11,7 +11,7 @@
 // ==/UserScript==
 (function() {var css = [
 	"/*",
-	"SHIMMER VERSION v1.0.3",
+	"SHIMMER VERSION v1.0.2",
 	"OPEN SOURCE PROJECT UNDER CC BY-SA LICENSE",
 	"DESIGNED BY /U/AMY",
 	"*/",
@@ -156,10 +156,13 @@
 	".md-header .btn-primary {",
 	"	border: none",
 	"}",
-	".md-input {",
+	".md-input, .md-preview {",
 	"	background: #333333 !important;",
 	"	border: none !important;",
 	"	margin-top: 5px !important;",
+	"}",
+	".btn-toolbar .btn-primary.active {",
+	"	background: #555555 !important",
 	"}",
 	".md-editor{",
 	"	border: none !important;",
