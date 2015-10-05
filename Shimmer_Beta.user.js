@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Shimmer
+// @name        Shimmer Beta
 // @description	A NightMode for Skimur!
 // @author      Amy
 // @include     http://skimur.com/*
@@ -7,7 +7,7 @@
 // @include     http://*.skimur.com/*
 // @include     https://*.skimur.com/*
 // @run-at      document-start
-// @version     1.0.2
+// @version     1.0.3
 // ==/UserScript==
 (function() {var css = [
 	"/*",
