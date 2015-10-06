@@ -7,11 +7,11 @@
 // @include     http://*.skimur.com/*
 // @include     https://*.skimur.com/*
 // @run-at      document-start
-// @version     1.0.8.3
+// @version     1.0.8.4
 // ==/UserScript==
 (function() {var css = [
 	"/*",
-	"SHIMMER VERSION v1.0.8.3",
+	"SHIMMER VERSION v1.0.8.4",
 	"OPEN SOURCE PROJECT UNDER CC BY-SA LICENSE",
 	"DESIGNED BY /U/AMY",
 	"*/",
@@ -31,6 +31,10 @@
 	"a.topbar-edit {",
 	"	background: #292929!important;",
 	"  border-color: black !important;",
+	"}",
+	".btn-default.active, .btn-default:active {",
+	"	background: #204d74 !important;",
+	"	border-color: #204d74 !important;",
 	"}",
 	".layout-header,",
 	".sub-description,",
@@ -71,13 +75,10 @@
 	".dropdown-menu {",
 	"	background: #333333 !important",
 	"}",
-	".dropdown-toggle:hover {",
+	".dropdown-toggle:hover, .dropdown-toggle:focus {",
 	"	background: #292929 !important;",
 	"	color: white !important;",
-	"}",
-	".dropdown-toggle:focus {",
-	"	background: #292929 !important;",
-	"	color: white !important;",
+	"	border-color: black !important;",
 	"}",
 	"body {",
 	"    background: #292929",
@@ -112,10 +113,6 @@
 	".btn-default:hover {",
 	"	background: #286090;",
 	"	border-color: #286090;",
-	"}",
-	".btn-default.active, .btn-default:active {",
-	"	background: #204d74 !important;",
-	"	border-color: #204d74 !important;",
 	"}",
 	".col-md-9 .btn-default.focus, .col-md-9 .btn-default:focus {",
 	"	background: #204d74 !important;",
