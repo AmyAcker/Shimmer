@@ -7,11 +7,11 @@
 // @include     http://*.skimur.com/*
 // @include     https://*.skimur.com/*
 // @run-at      document-start
-// @version     1.0.9.6
+// @version     1.0.9.7
 // ==/UserScript==
 (function() {var css = [
 	"/*",
-	"SHIMMER VERSION v1.0.9.6",
+	"SHIMMER VERSION v1.0.9.7",
 	"OPEN SOURCE PROJECT UNDER CC BY-SA LICENSE",
 	"DESIGNED BY /U/AMY",
 	"*/",
@@ -227,6 +227,12 @@
 	"	background: #9C1717 !important;",
 	"	border-color: #9C1717 !important;",
 	"}",
+	".disc-main a.btn-default:active, .disc-main a.btn-default.active,",
+	".showSweetAlert.visible .cancel:active, .showSweetAlert.visible .cancel.active {",
+	"	background: #821414 !important;",
+	"	border-color: #821414 !important;",
+	"	box-shadow: none !important;",
+	"}",
 	".dropdown-menu-right a, .dropdown-menu-right a:hover{",
 	"	background: #333 !important",
 	"}",
@@ -271,11 +277,6 @@
 	".types > .btn-group-vertical label {",
 	"	background: #333 !important;",
 	"	border-color: #333 !important;",
-	"}",
-	".showSweetAlert.visible .cancel:active, .showSweetAlert.visible .cancel.active {",
-	"	background: #821414 !important;",
-	"	border-color: #821414 !important;",
-	"	box-shadow: none !important;",
 	"}"
 ].join("\n");
 if (typeof GM_addStyle != "undefined") {
