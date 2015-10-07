@@ -7,11 +7,11 @@
 // @include     http://*.skimur.com/*
 // @include     https://*.skimur.com/*
 // @run-at      document-start
-// @version     1.0.9.9
+// @version     1.0.9.9.1
 // ==/UserScript==
 (function() {var css = [
 	"/*",
-	"SHIMMER VERSION v1.0.9.9",
+	"SHIMMER VERSION v1.0.9.9.1",
 	"OPEN SOURCE PROJECT UNDER CC BY-SA LICENSE",
 	"DESIGNED BY /U/AMY",
 	"*/",
@@ -219,17 +219,18 @@
 	"code {",
 	"	background: #000",
 	"}",
-	".disc-main a.btn-default, .showSweetAlert.visible .cancel {",
+	".disc-main a.btn-default, .showSweetAlert.visible .cancel, .unsubscribed {",
 	"	background: #B71C1C !important;",
 	"	border-color: #B71C1C !important;",
 	"	color: #FFF !important;",
 	"}",
-	".disc-main a.btn-default:hover, .showSweetAlert.visible .cancel:hover {",
+	".disc-main a.btn-default:hover, .showSweetAlert.visible .cancel:hover, .unsubscribed:hover {",
 	"	background: #9C1717 !important;",
 	"	border-color: #9C1717 !important;",
 	"}",
 	".disc-main a.btn-default:active, .disc-main a.btn-default.active,",
-	".showSweetAlert.visible .cancel:active, .showSweetAlert.visible .cancel.active {",
+	".showSweetAlert.visible .cancel:active, .showSweetAlert.visible .cancel.active,",
+	".unsubscribed:active, .unsubscribed.active {",
 	"	background: #821414 !important;",
 	"	border-color: #821414 !important;",
 	"	box-shadow: none !important;",
