@@ -7,11 +7,11 @@
 // @include     http://*.skimur.com/*
 // @include     https://*.skimur.com/*
 // @run-at      document-start
-// @version     1.0.9.2
+// @version     1.0.9.3
 // ==/UserScript==
 (function() {var css = [
 	"/*",
-	"SHIMMER VERSION v1.0.9.2",
+	"SHIMMER VERSION v1.0.9.3",
 	"OPEN SOURCE PROJECT UNDER CC BY-SA LICENSE",
 	"DESIGNED BY /U/AMY",
 	"*/",
@@ -87,13 +87,13 @@
 	".panel-info,",
 	".reports-unignored,",
 	".page-header.comments-header, .footer,",
-	"div.disc.comment,",
+	".disc.comment,",
 	".form-createpost hr,",
 	".col-sm-4 .panel-default,",
 	".col-sm-8 hr,",
 	".col-md-9 .page-header,",
 	".col-md-9 td,",
-	"div.col-sm-12 hr,",
+	".col-sm-12 hr,",
 	".table>thead>tr>th {",
 	"  border-color: #000 !important",
 	"}",
@@ -212,12 +212,12 @@
 	"	background: #292929;",
 	"	border-color: #292929;",
 	"}",
-	".disc-main a.btn-default {",
+	".disc-main .btn-default {",
 	"	background: #B71C1C !important;",
 	"	border-color: #B71C1C !important;",
 	"	color: #FFF !important;",
 	"}",
-	".disc-main a.btn-default:hover {",
+	".disc-main .btn-default:hover {",
 	"	background: #9C1717 !important;",
 	"	border-color: #9C1717 !important;",
 	"}",
