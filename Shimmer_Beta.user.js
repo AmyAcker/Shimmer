@@ -7,11 +7,11 @@
 // @include     http://*.skimur.com/*
 // @include     https://*.skimur.com/*
 // @run-at      document-start
-// @version     1.0.9.1
+// @version     1.0.9.2
 // ==/UserScript==
 (function() {var css = [
 	"/*",
-	"SHIMMER VERSION v1.0.9.1",
+	"SHIMMER VERSION v1.0.9.2",
 	"OPEN SOURCE PROJECT UNDER CC BY-SA LICENSE",
 	"DESIGNED BY /U/AMY",
 	"*/",
@@ -102,6 +102,7 @@
 	".account-nav a:hover,",
 	".btn-sm:hover,",
 	".md-control-fullscreen:hover,",
+	".exit-fullscreen:hover,",
 	"::-moz-selection {",
 	"  color: #FF8C00 !important",
 	"}",
@@ -185,6 +186,14 @@
 	"}",
 	".md-editor.active {",
 	"	box-shadow: none",
+	"}",
+	".md-editor.md-fullscreen-mode, .md-editor.md-fullscreen-mode > .md-input, .md-editor.md-fullscreen-mode > .md-input:hover,",
+	".md-editor.md-fullscreen-mode > .md-input:focus,  .md-editor.md-fullscreen-mode > .md-preview {",
+	"	background: #292929 !important;",
+	"	color: #aaa !important;",
+	"}",
+	".md-editor.md-fullscreen-mode .btn-primary.active, .md-editor.md-fullscreen-mode .btn-primary {",
+	"	color: #FFF",
 	"}",
 	".form-control {",
 	"	box-shadow: none !important;",
