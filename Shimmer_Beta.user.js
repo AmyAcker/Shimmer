@@ -7,11 +7,11 @@
 // @include     http://*.skimur.com/*
 // @include     https://*.skimur.com/*
 // @run-at      document-start
-// @version     1.0.9
+// @version     1.0.9.1
 // ==/UserScript==
 (function() {var css = [
 	"/*",
-	"SHIMMER VERSION v1.0.9",
+	"SHIMMER VERSION v1.0.9.1",
 	"OPEN SOURCE PROJECT UNDER CC BY-SA LICENSE",
 	"DESIGNED BY /U/AMY",
 	"*/",
@@ -121,8 +121,8 @@
 	".domain {",
 	"	color: #aaa !important",
 	"}",
-	".form-createpost .nav-tabs .active {",
-	"	background: #333 !important",
+	".row .nav-tabs .active {",
+	"	background: #333 !important;",
 	"}",
 	".panel {",
 	"	background: #292929",
