@@ -1,11 +1,11 @@
 **Change log**:
 
-v1.0.2
+**v1.0.2**
 
-Minor styling fixes and additions
+* Minor styling fixes and additions
 
-Code cleanup Pass One
+* Code cleanup Pass One
 
-v1.0.1
+**v1.0.1**
 
-Fixed minor styling issues
+* Fixed minor styling issues
