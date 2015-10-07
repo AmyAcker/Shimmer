@@ -7,11 +7,11 @@
 // @include     http://*.skimur.com/*
 // @include     https://*.skimur.com/*
 // @run-at      document-start
-// @version     1.0.9.5
+// @version     1.0.9.6
 // ==/UserScript==
 (function() {var css = [
 	"/*",
-	"SHIMMER VERSION v1.0.9.5",
+	"SHIMMER VERSION v1.0.9.6",
 	"OPEN SOURCE PROJECT UNDER CC BY-SA LICENSE",
 	"DESIGNED BY /U/AMY",
 	"*/",
@@ -104,6 +104,7 @@
 	".md-control-fullscreen:hover,",
 	".md-editor.md-fullscreen-mode .btn-primary:hover,",
 	".md-editor.md-fullscreen-mode .btn-primary.active:hover,",
+	".types > .btn-group-vertical label:hover,",
 	".exit-fullscreen:hover,",
 	"::-moz-selection {",
 	"  color: #FF8C00 !important",
@@ -217,12 +218,12 @@
 	"code {",
 	"	background: #000",
 	"}",
-	".disc-main a.btn-default {",
+	".disc-main a.btn-default, .showSweetAlert.visible .cancel {",
 	"	background: #B71C1C !important;",
 	"	border-color: #B71C1C !important;",
 	"	color: #FFF !important;",
 	"}",
-	".disc-main a.btn-default:hover {",
+	".disc-main a.btn-default:hover, .showSweetAlert.visible .cancel:hover {",
 	"	background: #9C1717 !important;",
 	"	border-color: #9C1717 !important;",
 	"}",
@@ -262,6 +263,19 @@
 	"}",
 	".close.pull-right {",
 	"	color: #FFF",
+	"}",
+	".showSweetAlert.visible {",
+	"	background: #333 !important;",
+	"	color: #FFF !important;",
+	"}",
+	".types > .btn-group-vertical label {",
+	"	background: #333 !important;",
+	"	border-color: #333 !important;",
+	"}",
+	".showSweetAlert.visible .cancel:active, .showSweetAlert.visible .cancel.active {",
+	"	background: #821414 !important;",
+	"	border-color: #821414 !important;",
+	"	box-shadow: none !important;",
 	"}"
 ].join("\n");
 if (typeof GM_addStyle != "undefined") {
