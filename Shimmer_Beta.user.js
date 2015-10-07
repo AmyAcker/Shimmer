@@ -7,11 +7,11 @@
 // @include     http://*.skimur.com/*
 // @include     https://*.skimur.com/*
 // @run-at      document-start
-// @version     1.0.9.7
+// @version     1.0.9.8
 // ==/UserScript==
 (function() {var css = [
 	"/*",
-	"SHIMMER VERSION v1.0.9.7",
+	"SHIMMER VERSION v1.0.9.8",
 	"OPEN SOURCE PROJECT UNDER CC BY-SA LICENSE",
 	"DESIGNED BY /U/AMY",
 	"*/",
@@ -40,6 +40,7 @@
 	".sub-description,",
 	".dropdown-toggle,",
 	".form-control,",
+	".report-summary,",
 	".input-group-addon {",
 	"	background: #333 !important;",
 	"  border-color: #000 !important;",
@@ -277,6 +278,10 @@
 	".types > .btn-group-vertical label {",
 	"	background: #333 !important;",
 	"	border-color: #333 !important;",
+	"}",
+	".col-xs-11.col-sm-4 {",
+	"	background: #222 !important;",
+	"	border-color: black !important;",
 	"}"
 ].join("\n");
 if (typeof GM_addStyle != "undefined") {
