@@ -7,11 +7,11 @@
 // @include     http://*.skimur.com/*
 // @include     https://*.skimur.com/*
 // @run-at      document-start
-// @version     1.0.9.8
+// @version     1.0.9.9
 // ==/UserScript==
 (function() {var css = [
 	"/*",
-	"SHIMMER VERSION v1.0.9.8",
+	"SHIMMER VERSION v1.0.9.9",
 	"OPEN SOURCE PROJECT UNDER CC BY-SA LICENSE",
 	"DESIGNED BY /U/AMY",
 	"*/",
@@ -268,7 +268,7 @@
 	"	background: #333 !important;",
 	"	color: #ccc;",
 	"}",
-	".close.pull-right {",
+	".close.pull-right, .col-xs-11.col-sm-4 .close {",
 	"	color: #FFF",
 	"}",
 	".showSweetAlert.visible {",
