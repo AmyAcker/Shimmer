@@ -1,5 +1,9 @@
 **Change log**:
 
+### 1.1.1
+
+* Fixes Alert messages background and btn coloring 
+
 ### 1.1 
 
 * Fixed tab styling
