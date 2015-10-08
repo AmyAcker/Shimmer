@@ -1,5 +1,17 @@
 **Change log**:
 
+### 1.1 
+
+* Fixed tab styling
+
+* Fixed btn styling 
+
+* Partial restructure and cleanup 
+
+* Fixed colors
+
+* Fixed various styling issues
+
 ### 1.0.2
 
 * Minor styling fixes and additions
