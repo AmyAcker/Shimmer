@@ -1,5 +1,11 @@
 **Change log**:
 
+### 1.1.2
+
+* Formatting
+
+* Support for recent additions
+
 ### 1.1.1
 
 * Fixes Alert messages background and btn coloring 
