@@ -7,12 +7,12 @@
 // @include     http://*.skimur.com/*
 // @include     https://*.skimur.com/*
 // @run-at      document-start
-// @version     1.1.2
+// @version     1.1.2.1
 // ==/UserScript==
 (function() {var css = [
 	"/*------------------------------------------------------------------",
 	"Project:	Shimmer Beta",
-	"Version:	1.1.2",
+	"Version:	1.1.2.1",
 	"Last change:	10/10/15",
 	"License: CC BY-SA",
 	"Designer: /u/Amy",
@@ -46,7 +46,8 @@
 	".dropdown-toggle,",
 	".form-control,",
 	".report-summary,",
-	".input-group-addon {",
+	".input-group-addon,",
+	"#invite-prompt {",
 	"    background: #333 !important;",
 	"    border-color: #000 !important;",
 	"}",
@@ -103,7 +104,12 @@
 	".col-md-9 .page-header,",
 	".col-md-9 td,",
 	".col-sm-12 hr,",
-	".table>thead>tr>th {",
+	".table>thead>tr>th,",
+	".moderator > .permissions,",
+	".moderator > .added-on,",
+	".moderator > .invited-on,",
+	".moderator > .actions,",
+	".moderator > .user {",
 	"    border-color: #000 !important",
 	"}",
 	".topbar-edit:hover,",
@@ -318,7 +324,7 @@
 	"}",
 	".col-xs-11.col-sm-4 {",
 	"    background: #222 !important;",
-	"    border-color: black !important;",
+	"    border-color: #000 !important;",
 	"}",
 	".permission-modal .permissions hr,",
 	".permission-modal .modal-footer {",
