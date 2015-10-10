@@ -7,15 +7,15 @@
 // @include     http://*.skimur.com/*
 // @include     https://*.skimur.com/*
 // @run-at      document-start
-// @version     1.1.2.1
+// @version     1.1.2
 // ==/UserScript==
 (function() {var css = [
 	"/*------------------------------------------------------------------",
 	"Project:	Shimmer Beta",
-	"Version:	1.1.2.2",
+	"Version:	1.1.2",
 	"Last change:	10/10/15",
-	"License: CC BY-SA",
-	"Designer: /u/Amy",
+	"License:       CC BY-SA",
+	"Designer:      /u/Amy",
 	"-------------------------------------------------------------------*/",
 	"",
 	"a:hover {",
