@@ -7,7 +7,7 @@
 // @include     http://*.skimur.com/*
 // @include     https://*.skimur.com/*
 // @run-at      document-start
-// @version     1.1.2
+// @version     1.1.5
 // ==/UserScript==
 (function() {var css = [
 	"/*------------------------------------------------------------------",
