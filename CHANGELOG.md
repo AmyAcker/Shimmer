@@ -1,5 +1,14 @@
 **Change log**:
 
+###1.2
+
+* Refined colors
+
+* Visited links now distingushed
+
+* General bug fixes
+
+
 ### 1.1.2
 
 * Formatting
