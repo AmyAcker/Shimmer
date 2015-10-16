@@ -470,25 +470,4 @@ td.actions .btn-sm {
 .ace-github .ace_cursor {
     color: #999 !important;
 }
-.sub-sidebar-text > h6 {
-    position: absolute;
-    top: -58px;
-    left: -1000px;
-    margin: 15px;
-    background: #292929;
-    border: 1px solid #171717;
-    border-radius: 2px;
-    padding: 10px 15px;
-    width: calc(100% + 450px);
-    text-align: center;
-    font-style: normal;
-    color: #FFF;
-}
-.row {
-    padding-top: 30px;
-}
-@media (max-width: 870px) {
-    .sub-sidebar-text > h6 {
-        display: none !important;
-    }
-}
+
