@@ -1,7 +1,7 @@
 /*------------------------------------------------------------------
 Project:	Shimmer Beta
-Version:	1.1.7
-Last change:	10/14/15
+Version:	1.2.1
+Last change:	10/16/15
 License: CC BY-SA
 Designer: /u/Amy
 -------------------------------------------------------------------*/
@@ -23,13 +23,16 @@ a.link:visited:focus {
 .subbans-bans {
     color: #aaa;
 }
-.nav-tabs>li.active>a,.nav-tabs>li.active>a:focus,.nav-tabs>li.active>a:hover {
-	  color:#fff;
-	  background-color:#212121;
-	  border:1px solid #000 !important;
-	  border-bottom-color: transparent !important;
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    color: #fff;
+    background-color: #212121;
+    border: 1px solid #000 !important;
+    border-bottom-color: transparent !important;
 }
-.nav-tabs>li.active>a:hover, .row .nav-tabs > li > a:focus {
+.nav-tabs>li.active>a:hover,
+.row .nav-tabs > li > a:focus {
     background: #212121 !important;
     border-color: #000 !important;
     border-bottom-color: transparent !important;
@@ -440,7 +443,7 @@ td.actions .btn-sm {
 .permission-modal .modal-footer {
     border-color: #000 !important;
 }
-.styles-edit  h1.page-header {
+.styles-edit h1.page-header {
     border-color: #000
 }
 .styles-edit .alert-warning,
@@ -458,11 +461,34 @@ td.actions .btn-sm {
     color: #FFF;
 }
 .ace-github.ace_focus .ace_marker-layer .ace_active-line {
-	  background: #333 !important;;
+    background: #333 !important;
+    ;
 }
 .ace-github .ace_marker-layer .ace_active-line {
-	  background: #393939 !important;
+    background: #393939 !important;
 }
 .ace-github .ace_cursor {
-	color: #999 !important;
+    color: #999 !important;
+}
+.sub-sidebar-text > h6 {
+    position: absolute;
+    top: -58px;
+    left: -1000px;
+    margin: 15px;
+    background: #292929;
+    border: 1px solid #171717;
+    border-radius: 2px;
+    padding: 10px 15px;
+    width: calc(100% + 450px);
+    text-align: center;
+    font-style: normal;
+    color: #FFF;
+}
+.row {
+    padding-top: 30px;
+}
+@media (max-width: 870px) {
+    .sub-sidebar-text > h6 {
+        display: none !important;
+    }
 }
