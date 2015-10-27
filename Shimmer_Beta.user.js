@@ -7,13 +7,13 @@
 // @include     http://*.skimur.com/*
 // @include     https://*.skimur.com/*
 // @run-at      document-start
-// @version     1.2.2
+// @version     1.2.3
 // ==/UserScript==
 (function() {var css = [
 	"/*------------------------------------------------------------------",
 	"Project:	Shimmer Beta",
-	"Version:	1.2.2",
-	"Last change:	10/26/15",
+	"Version:	1.2.3",
+	"Last change:	10/27/15",
 	"License: CC BY-SA",
 	"Designer: /u/Amy",
 	"-------------------------------------------------------------------*/",
@@ -504,6 +504,9 @@
 	"}",
 	".account-forgotpassword  {",
 	"    color: #aaa;",
+	"}",
+	".dropdown-menu-left a {",
+	"    background: transparent !important;",
 	"}"
 ].join("\n");
 if (typeof GM_addStyle != "undefined") {
