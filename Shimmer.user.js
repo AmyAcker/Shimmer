@@ -12,7 +12,7 @@
 (function() {var css = [
 	"/*------------------------------------------------------------------",
 	"Project:	Shimmer ",
-	"Version:	1.2.4",
+	"Version:	1.2.5",
 	"Last change:	10/28/15",
 	"License: CC BY-SA",
 	"Designer: /u/Amy",
