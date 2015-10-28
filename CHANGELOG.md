@@ -1,5 +1,11 @@
 **Change log**:
 
+###1.2.4
+
+* Sticky support
+
+* Bug fixes
+
 ###1.2
 
 * Refined colors
