@@ -7,13 +7,13 @@
 // @include     http://*.skimur.com/*
 // @include     https://*.skimur.com/*
 // @run-at      document-start
-// @version     1.2.1
+// @version     1.2.4
 // ==/UserScript==
 (function() {var css = [
 	"/*------------------------------------------------------------------",
 	"Project:	Shimmer ",
-	"Version:	1.2.1",
-	"Last change:	10/16/15",
+	"Version:	1.2.4",
+	"Last change:	10/28/15",
 	"License: CC BY-SA",
 	"Designer: /u/Amy",
 	"-------------------------------------------------------------------*/",
@@ -70,6 +70,10 @@
 	"}",
 	".layout-header .layout-header-account ul.account-nav > li.inbox.has-mail a:hover {",
 	"    color: #983618 !important;",
+	"}",
+	".layout-header-banner {",
+	"    filter: brightness(0.8);",
+	"    -webkit-filter: brightness(0.8);",
 	"}",
 	".topbar-edit {",
 	"    background: #212121 !important;",
@@ -160,7 +164,7 @@
 	".footer,",
 	".form-createpost hr,",
 	".col-sm-4 .panel-default,",
-	".col-sm-8 hr,",
+	".col-sm-8 .page-header,",
 	".col-sm-8 .panel-default,",
 	".col-md-9 .page-header,",
 	".col-md-9 td,",
@@ -172,7 +176,8 @@
 	".moderator > .actions,",
 	".moderator > .user,",
 	".subbans-bans hr,",
-	".styles-edit h1.page-header {",
+	".styles-edit h1.page-header,",
+	".account-forgotpassword hr {",
 	"    border-color: #000 !important;",
 	"}",
 	".reports-unignored,",
@@ -480,6 +485,28 @@
 	"}",
 	".ace-github .ace_cursor {",
 	"    color: #999 !important;",
+	"}",
+	"span.sticky {",
+	"    padding: 2px 4px 2px 4px;",
+	"    border-radius: 2px;",
+	"    background-color: #a11919;",
+	"    border-color: #a11919;",
+	"    color: #fff;",
+	"}",
+	".sticky .link {",
+	"    color: #279c27;",
+	"}",
+	".sticky .link:visited {",
+	"    color: #282;",
+	"}",
+	".sticky .link:hover {",
+	"    color: #134c13 !important;",
+	"}",
+	".account-forgotpassword  {",
+	"    color: #aaa;",
+	"}",
+	".dropdown-menu-left a {",
+	"    background: transparent !important;",
 	"}"
 ].join("\n");
 if (typeof GM_addStyle != "undefined") {
