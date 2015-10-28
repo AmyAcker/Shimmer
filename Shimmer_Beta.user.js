@@ -11,7 +11,7 @@
 // ==/UserScript==
 (function() {var css = [
 	"/*------------------------------------------------------------------",
-	"Project:	Shimmer Beta ",
+	"Project:	Shimmer Beta",
 	"Version:	1.2.5",
 	"Last change:	10/28/15",
 	"License: CC BY-SA",
@@ -500,6 +500,9 @@
 	"    color: #282 !important;",
 	"}",
 	".sticky .link:hover {",
+	"    color: #1d731d !important;",
+	"}",
+	".sticky .link:visited:hover {",
 	"    color: #185f18 !important;",
 	"}",
 	".account-forgotpassword  {",
