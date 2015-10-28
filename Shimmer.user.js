@@ -11,7 +11,7 @@
 // ==/UserScript==
 (function() {var css = [
 	"/*------------------------------------------------------------------",
-	"Project:	Shimmer ",
+	"Project:	Shimmer",
 	"Version:	1.2.4",
 	"Last change:	10/28/15",
 	"License: CC BY-SA",
