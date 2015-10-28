@@ -7,13 +7,13 @@
 // @include     http://*.skimur.com/*
 // @include     https://*.skimur.com/*
 // @run-at      document-start
-// @version     1.2.3
+// @version     1.2.4
 // ==/UserScript==
 (function() {var css = [
 	"/*------------------------------------------------------------------",
 	"Project:	Shimmer Beta",
-	"Version:	1.2.3",
-	"Last change:	10/27/15",
+	"Version:	1.2.4",
+	"Last change:	10/28/15",
 	"License: CC BY-SA",
 	"Designer: /u/Amy",
 	"-------------------------------------------------------------------*/",
@@ -164,7 +164,7 @@
 	".footer,",
 	".form-createpost hr,",
 	".col-sm-4 .panel-default,",
-	".col-sm-8 hr,",
+	".col-sm-8 .page-header,",
 	".col-sm-8 .panel-default,",
 	".col-md-9 .page-header,",
 	".col-md-9 td,",
