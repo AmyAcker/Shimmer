@@ -1,5 +1,13 @@
 **Change log**:
 
+###1.2.7 
+
+* Support for expandos and text previews
+
+* Support for thumbnails
+
+* Small code changes
+
 ###1.2.4
 
 * Sticky support
