@@ -7,13 +7,13 @@
 // @include     http://*.skimur.com/*
 // @include     https://*.skimur.com/*
 // @run-at      document-start
-// @version     1.2.6
+// @version     1.2.7
 // ==/UserScript==
 (function() {var css = [
 	"/*------------------------------------------------------------------",
 	"Project:	Shimmer Beta",
-	"Version:	1.2.6",
-	"Last change:	11/10/15",
+	"Version:	1.2.7",
+	"Last change:	11/18/15",
 	"License: CC BY-SA",
 	"Designer: /u/Amy",
 	"-------------------------------------------------------------------*/",
@@ -513,6 +513,13 @@
 	"    background: #333;",
 	"    border-color: #000;",
 	"    color: white;",
+	"}",
+	".previewed {",
+	"    background: #292929 !important;",
+	"    border-color: #333 !important;",
+	"}",
+	".disc .disc-body .disc-main .disc-expando {",
+	"	color:#888;",
 	"}"
 ].join("\n");
 if (typeof GM_addStyle != "undefined") {
