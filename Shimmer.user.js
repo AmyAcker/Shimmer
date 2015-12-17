@@ -7,13 +7,13 @@
 // @include     http://*.skimur.com/*
 // @include     https://*.skimur.com/*
 // @run-at      document-start
-// @version     1.2.7
+// @version     1.2.7.1
 // ==/UserScript==
 (function() {var css = [
 	"/*------------------------------------------------------------------",
 	"Project:	Shimmer",
-	"Version:	1.2.7",
-	"Last change:	11/18/15",
+	"Version:	1.2.7.1",
+	"Last change:	12/16/15",
 	"License: CC BY-SA",
 	"Designer: /u/Amy",
 	"-------------------------------------------------------------------*/",
@@ -520,6 +520,10 @@
 	"}",
 	".disc .disc-body .disc-main .disc-expando {",
 	"	color:#888;",
+	"}",
+	"pre.well {",
+	"    background: #292929;",
+	"    border-color: #171717;",
 	"}"
 ].join("\n");
 if (typeof GM_addStyle != "undefined") {
